@@ -1,0 +1,56 @@
+div.container {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+div.row {
+    width: 100%;
+    min-height: 200px;
+    border: gray solid 1px;
+}
+
+ul.social-links {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-left: 5px;
+}
+
+a {
+    padding: 20px;
+    color: white;
+}
+
+#call-to-action {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.photo {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo .content {
+    position: absolute;
+    margin-top: 75px;
+    max-height: 150px;
+    height: 150px;
+    width: 150px;
+}

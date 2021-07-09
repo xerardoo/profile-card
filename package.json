@@ -1,0 +1,26 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "Web Component",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "testcafe firefox ./test/**",
+    "demo": "npx web-dev-server -c server.config.mjs"
+  },
+  "keywords": [
+    "web",
+    "component",
+    "vainillajs"
+  ],
+  "author": "Lucio G Pazos",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@web/dev-server": "^0.1.18",
+    "faker": "^5.5.3",
+    "testcafe": "^1.14.2"
+  }
+}

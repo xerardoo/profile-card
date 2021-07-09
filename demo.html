@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Profile Card Web Component</title>
+    <script type="module" src="src/profile-card.js"></script>
+    <style>
+        .container {
+            margin: 50px 200px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <profile-card
+            id="profile-card"
+            photo-url="https://www.tsensor.online/wp-content/uploads/2020/04/avatar-icon-png-105-images-in-collection-page-3-avatarpng-512_512.png"
+            primary-color="#1a57f1"
+            secondary-color="#fff"
+            font-color="#505050"
+            github-url="https://github.com"
+            gitlab-url="https://gitlab.com"
+            twitter-url="https://twitter.com"
+            call-to-action="Send a Message!"
+            @call-to-action-click="onClick()"
+    >
+        <span id="fn" slot="first-name">John</span>
+        <span id="ln" slot="last-name">Doe</span>
+        <span id="jp" slot="job-position">Software Enginner</span>
+        <span id="am" slot="about-me">I Love &hearts; Dr.Pepper!</span>
+    </profile-card>
+</div>
+
+<script>
+    function onClick() {
+        alert("Hello! Call me at (928)-1584-116")
+    }
+</script>
+</body>
+</html>
