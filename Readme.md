@@ -38,6 +38,10 @@ npx web-dev-server -c server.config.mjs
 
 | Property              | Type        | Default   |
 | --------------------- | ----------- | --------- |
+| first-name            | Text        |           |
+| last-name             | Text        |           |
+| job-position          | Text        |           |
+| about-me              | Text        |           |
 | photo-url             | Text        |           |
 | primary-color         | Hex or Text |   gray    |
 | secondary-color       | Hex or Text |   white   |
@@ -56,7 +60,8 @@ npx web-dev-server -c server.config.mjs
 | -------------------- |
 | first-name           |
 | last-name            |
-| secondary-color      |
+| job-position         |
+| about-me             |
 
 
 
