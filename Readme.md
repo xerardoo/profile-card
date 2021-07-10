@@ -1,6 +1,6 @@
 # Profile Card Web Component
 
-
+![alt text](preview.PNG "Preview")
 
 ### Install
 
